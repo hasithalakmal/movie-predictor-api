@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/profile-api.iml" filepath="$PROJECT_DIR$/profile-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beans/profile-beans.iml" filepath="$PROJECT_DIR$/beans/profile-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/profile-core.iml" filepath="$PROJECT_DIR$/core/profile-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/profile-web.iml" filepath="$PROJECT_DIR$/web/profile-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ts_project.iml" filepath="$PROJECT_DIR$/ts_project.iml" />
+    </modules>
+  </component>
+</project>

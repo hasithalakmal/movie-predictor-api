@@ -49,7 +49,7 @@ public class PreProcessedData implements Serializable {
     private Integer rowDataId;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 45)
+    @Size(min = 1, max = 500)
     @Column(name = "MOVE_NAME", nullable = false, length = 45)
     private String moveName;
     @Size(max = 45)

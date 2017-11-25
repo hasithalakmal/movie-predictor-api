@@ -52,8 +52,8 @@ public class RowData implements Serializable {
     private Integer rowDataId;
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 45)
-    @Column(name = "MOVE_NAME", nullable = false, length = 45)
+    @Size(min = 1, max = 500)
+    @Column(name = "MOVE_NAME", nullable = false, length = 500)
     private String moveName;
     private Integer duration;
     @Size(max = 45)
@@ -199,7 +199,9 @@ public class RowData implements Serializable {
 
     @Override
     public String toString() {
-        return "com.smile24es.ts_project.beans.RowData[ rowDataId=" + rowDataId + " ]";
+        return "RowData{" + "rowDataId=" + rowDataId + ", moveName=" + moveName + ", duration=" + duration + ", diretorName=" + diretorName + ", actorName=" + actorName + ", genre=" + genre + ", budget=" + budget + ", lanauge=" + lanauge + ", country=" + country + ", income=" + income + ", isProfitable=" + isProfitable + '}';
     }
+
+    
     
 }

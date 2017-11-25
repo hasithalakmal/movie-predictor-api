@@ -586,9 +586,10 @@ public class DataManipulationServiceImpl implements DataManipulationService {
             recode.setActorOne(actor.getActorCategory().getActorCategoryName());
         }
         Director director = directorDao.findDirectorByName(rowData.getDiretorName());
-        if (actor == null) {
+        if (director == null) {
             recode.setDirector(MOST__POPULER__DIRECTOR);
         } else {
+            SL4J_LOGGER.info("Director Object - [{}]",rowData);
             recode.setDirector(director.getDirectorCategory().getDirectorCategoryName());
         }
         Integer duration = rowData.getDuration();

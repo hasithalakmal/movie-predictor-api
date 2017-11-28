@@ -358,7 +358,7 @@ public class DataManipulationServiceImpl implements DataManipulationService {
             recode.setBudgetID(preProcessedData.getBudgetCategory().getBudgetCategoryName());
             recode.setCountry(preProcessedData.getCountry());
             recode.setDirector(preProcessedData.getDiretorCategory().getDirectorCategoryName());
-            recode.setDuration(preProcessedData.getDiretorCategory().getDirectorCategoryName());
+            recode.setDuration(preProcessedData.getDurationCategory().getDuratonCategoryName());
             recode.setGenres(preProcessedData.getGenre());
             recode.setLanguage(preProcessedData.getLanauge());
             if(preProcessedData.getIsProfitable().equals("true")){
